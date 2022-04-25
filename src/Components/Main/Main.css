@@ -1,0 +1,7 @@
+#Main-Container {
+    margin-top: 0;
+    width: 100vw;
+    height: 150vh;
+    background-image: url('./../../../assets/Background_Texture.png');
+    background-repeat: repeat;
+}
