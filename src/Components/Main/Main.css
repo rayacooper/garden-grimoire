@@ -5,3 +5,9 @@
     background-image: url('./../../../assets/Background_Texture.png');
     background-repeat: repeat;
 }
+
+.Main-Container--shadow {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}

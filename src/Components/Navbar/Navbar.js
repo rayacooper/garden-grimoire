@@ -17,7 +17,12 @@ const Navbar = () => {
 
             </ul>
 
-            <div>Search Bar</div>
+            <div id='nav-container__search-bar'>
+                <input type="text" />
+                <button onClick={() => console.log("You searchin' for summat?")}>
+
+                </button>
+            </div>
 
             <div className='nav-container__hamburger-menu'>
                 <div className="nav-container__hamburger-menu--bar"></div>

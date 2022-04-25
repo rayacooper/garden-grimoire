@@ -4,12 +4,13 @@
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     width: 100%;
-    height: 80px;
+    height: 50px;
     background-image: url("./../../../assets/Navbar\ Painting\ copy.png");
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    margin: 0px;
 }
 
 .nav-container__links{
@@ -27,4 +28,21 @@
     height: 3px;
     border-radius: 4px;
     padding: 2px;
+}
+
+#nav-container__search-bar {
+    height: 2vh;
+}
+
+#nav-container__search-bar input {
+    height: 100%;
+    border: none;
+    margin: none;
+}
+
+#nav-container__search-bar button{
+    height: 100%;
+    border: none;
+    background-color: white;
+    margin: none;
 }
