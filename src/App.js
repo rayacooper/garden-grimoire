@@ -1,11 +1,11 @@
 import Navbar from "./Components/Navbar/Navbar";
-import Main from "./Components/Main/Main"
+import Routes from "./Routes";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      <Main />
+      {Routes}
     </div>
   );
 }

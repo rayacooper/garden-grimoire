@@ -15,6 +15,7 @@ const sun_types = [
 // Let's map out the object that represents each plant!
 
 const plant = {
+    id: 'Number',
     name: 'String', 
     image_url: 'String of url link to image',
     description: 'String, describing plant. Short. 30 words max? ',
