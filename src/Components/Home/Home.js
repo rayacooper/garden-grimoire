@@ -1,9 +1,9 @@
 import React from 'react';
-import './Main.css';
+import './Home.css';
 
-import PlantMasterList from './../../Plants_Master_List';
+import PlantMasterList from '../../Plants_Master_List';
 
-class Main extends React.Component {
+class Home extends React.Component {
     constructor(props) {
       super(props);
       this.state={
@@ -14,7 +14,7 @@ class Main extends React.Component {
     render() {
       console.log(PlantMasterList.cilantro.soil_type)
       return (
-          <div id="Main-Container">
+          <div id="Home-Container">
 
 
             <h1>Oh look, here's a number: {this.state.currentId}</h1>
@@ -24,4 +24,4 @@ class Main extends React.Component {
     }
   }
 
-  export default Main;
+  export default Home;
