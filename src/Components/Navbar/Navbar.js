@@ -4,7 +4,7 @@ import './Navbar.css'
 const Navbar = () => {
     return (
         <div className='nav-container'>
-            <img src="#" alt="Logo" id=""/>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/0/08/Pinterest-logo.png' alt="Logo" id="SiteLogo"/>
 
             <ul className='nav-container__links'>
                 <li>

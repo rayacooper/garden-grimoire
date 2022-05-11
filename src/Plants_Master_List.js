@@ -1,16 +1,26 @@
 const PlantMasterList = {
 
-    cilantro: {
+    coriander: {
         id: 0,
-        name: 'Cilantro', 
+        name: 'Coriander', 
         image_url: '#',
-        description: 'String, describing plant. Short. 30 words max? ',
+        description: 'Also known as cilantro, this fast growing herb has leaves and seeds that are great for cooking. Leaves are ready as soon as 60 - 75 days, and seeds require at least 100 days.',
         soil_type: "Loam",
-        sun_type: 'Number, representing index in the array "sun_types" ',
+        sun_type: 'Full Sun (6+ hours of direct sun daily)',
         germination: 'Number, representing how many days until seeds germinate',
         days_to_harvest: 'Number, although maybe this should be part of the text description ',
         seed_propagation: 'String, possibly containing a link to another page showing them how',
         diseases_pests: 'String or array containing diseases and pests',
+    },
+
+    oregano: {
+        id: 1,
+        name: 'Oregano',
+        image_url: '#',
+        description: 'Description',
+        soil_type: "",
+        sun_type: "",
+
     }
 
 };
