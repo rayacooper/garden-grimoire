@@ -10,16 +10,16 @@
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    margin: 0px;
 }
 
 .nav-container__links{
     display: flex;
-    text-decoration: none;
+    align-items: center;
+    list-style: none;
 }
 
 .nav-container__links li{
-    padding: 2px;
+    padding: 2vw;
 }
 
 .nav-container__hamburger-menu{

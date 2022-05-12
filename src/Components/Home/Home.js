@@ -8,17 +8,17 @@ class Home extends React.Component {
       super(props);
       this.state={
         currentId: Math.floor(Math.random() * 20),
-        currentPlant: PlantMasterList.cilantro
+        currentPlant: PlantMasterList.coriander
       }
     }
     render() {
-      console.log(PlantMasterList.cilantro.soil_type)
+      console.log(PlantMasterList.coriander.soil_type)
       return (
           <div id="Home-Container">
 
-
             <h1>Oh look, here's a number: {this.state.currentId}</h1>
-            <h2>I've heard Cilantro likes {PlantMasterList.cilantro.soil_type} type soil.</h2>
+            <h2>I've heard Cilantro likes {PlantMasterList.coriander.soil_type} type soil.</h2>
+
           </div>
       );
     }
